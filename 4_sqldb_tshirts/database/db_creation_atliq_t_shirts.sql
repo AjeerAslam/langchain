@@ -59,6 +59,8 @@ DELIMITER ;
 -- Call the stored procedure to populate the t_shirts table
 CALL PopulateTShirts();
 
+SET FOREIGN_KEY_CHECKS = 0;
+
 -- Insert at least 10 records into the discounts table
 INSERT INTO discounts (t_shirt_id, pct_discount)
 VALUES
@@ -72,3 +74,5 @@ VALUES
 (8, 35.00),
 (9, 40.00),
 (10, 45.00);
+
+SET FOREIGN_KEY_CHECKS = 1;
