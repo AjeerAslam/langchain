@@ -11,6 +11,6 @@ Tutorial for langchain LLM library(pip freeze > requirements.txt)
 
 5-ceate database by copying script from \database\db_creation_atliq_t_shirts.sql
 
-6-give database credential inside app
+6-give database credential inside app.ipynb
 
-5-run app.ipynb file
+7-run app.ipynb file
