@@ -1,11 +1,12 @@
 # langchain
-Tutorial for langchain LLM library
+Tutorial for langchain LLM library(pip freeze > requirements.txt)
 
-python -m venv venv
+1-clone repository to vscode
 
-venv\Scripts\activate
+2-python -m venv venv
 
-pip freeze > requirements.txt
+3-venv\Scripts\activate
 
-pip install -r requirements.txt
+4-pip install -r requirements.txt
 
+5-run app.ipynb file
